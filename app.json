@@ -23,7 +23,11 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "package": "com.skipperlog.app"
+      "package": "com.skipperlog.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -43,8 +47,16 @@
     ],
     "extra": {
       "eas": {
-        "projectId": ""
-      }
+        "projectId": "c0fe0ae1-1bd5-4bf4-95d3-c3fe9713abab"
+      },
+      "router": {}
+    },
+    "owner": "liudvichuk",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c0fe0ae1-1bd5-4bf4-95d3-c3fe9713abab"
     }
   }
 }
